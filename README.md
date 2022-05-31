@@ -17,7 +17,19 @@ yarn
 Run the development server:
 
 ```bash
-yarn dev
+yarn start
 ```
+
+OR
+
+Run with `nodemon`:
+
+```bash
+yarn test
+```
+
+> *Nodemon is a utility depended on by over 1.5 million projects, that will
+> monitor for any changes in your source and automatically restart your server.
+> Perfect for development.*
 
 Server will run on `localhost:3000`
