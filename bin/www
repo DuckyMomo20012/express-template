@@ -6,11 +6,16 @@
 
 const debug = require('debug')('express-template:server');
 const http = require('http');
+const dotenv = require('dotenv');
 const app = require('../app');
+
+dotenv.config();
 
 /**
  * Get port from environment and store in Express.
  */
+
+console.log(`Your TEST_VAR: ${process.env.TEST_VAR}`);
 
 const port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
