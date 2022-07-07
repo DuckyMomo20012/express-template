@@ -1,0 +1,10 @@
+{
+  "name": "ExpressJS",
+  "description": "A simple ExpressJS template",
+  "keywords": ["express"],
+  "logo": "https://nodered.org/about/resources/media/node-red-icon.png",
+  "repository": "https://github.com/DuckyMomo20012/express-template",
+  "success_url": "/",
+  "website": "https://github.com/DuckyMomo20012/express-template",
+  "env": {}
+}
