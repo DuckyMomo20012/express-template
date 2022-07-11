@@ -54,9 +54,8 @@
   - [Environment Variables](#key-environment-variables)
 - [Getting Started](#toolbox-getting-started)
   - [Prerequisites](#bangbang-prerequisites)
-  - [Installation](#gear-installation)
-  - [Running Tests](#test_tube-running-tests)
   - [Run Locally](#running-run-locally)
+  - [Running Tests](#test_tube-running-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [Usage](#eyes-usage)
 - [Roadmap](#compass-roadmap)
@@ -148,27 +147,6 @@ This project uses [Yarn](https://yarnpkg.com/) as package manager:
 npm install --global yarn
 ```
 
-<!-- Installation -->
-
-### :gear: Installation
-
-Install express-template with yarn:
-
-```bash
-yarn install express-template
-cd express-template
-```
-
-<!-- Running Tests -->
-
-### :test_tube: Running Tests
-
-To run tests, run the following command:
-
-```bash
-yarn test test
-```
-
 <!-- Run Locally -->
 
 ### :running: Run Locally
@@ -205,9 +183,21 @@ Run with `nodemon`:
 yarn test
 ```
 
+---
+
 Access server:
 
 The server will run on: http://localhost:3000/
+
+<!-- Running Tests -->
+
+### :test_tube: Running Tests
+
+To run tests, run the following command:
+
+```bash
+yarn test test
+```
 
 <!-- Deployment -->
 
