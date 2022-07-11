@@ -120,9 +120,10 @@
 
 ### :key: Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to add the following environment variables to
+your .env file.
 
-`TEST_VAR`: Description about this environment variable.
+`TEST_VAR`: Description of this environment variable.
 
 E.g:
 
@@ -141,7 +142,7 @@ variables.
 
 ### :bangbang: Prerequisites
 
-This project uses [Yarn](https://yarnpkg.com/) as package manager
+This project uses [Yarn](https://yarnpkg.com/) as package manager:
 
 ```bash
 npm install --global yarn
@@ -151,7 +152,7 @@ npm install --global yarn
 
 ### :gear: Installation
 
-Install express-template with npm
+Install express-template with yarn:
 
 ```bash
 yarn install express-template
@@ -162,7 +163,7 @@ cd express-template
 
 ### :test_tube: Running Tests
 
-To run tests, run the following command
+To run tests, run the following command:
 
 ```bash
 yarn test test
@@ -172,28 +173,25 @@ yarn test test
 
 ### :running: Run Locally
 
-Clone the project
+Clone the project:
 
 ```bash
 git clone https://github.com/DuckyMomo20012/express-template.git
 ```
 
-Go to the project directory
+Go to the project directory:
 
 ```bash
 cd express-template
 ```
 
-Install dependencies
+Install dependencies:
 
 ```bash
 yarn install
 ```
 
-> If you have error: "node" is incompatible... Then add flag:
-> `--ignore-engines`. E.g: `yarn add --ignore-engines PACKAGE_NAME`.
-
-Start the server
+Start the server:
 
 ```bash
 yarn start
@@ -201,21 +199,21 @@ yarn start
 
 OR
 
-Run with `nodemon`
+Run with `nodemon`:
 
 ```bash
 yarn test
 ```
 
-Access server
+Access server:
 
-Server will run on: http://localhost:3000/
+The server will run on: http://localhost:3000/
 
 <!-- Deployment -->
 
 ### :triangular_flag_on_post: Deployment
 
-To deploy this project on Heroku
+To deploy this project on Heroku:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
@@ -223,7 +221,8 @@ To deploy this project on Heroku
 
 ## :eyes: Usage
 
-Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
+Use this space to tell a little more about your project and how it can be used.
+Show additional screenshots, code samples, demos, or links to other resources.
 
 ```javascript
 const express = require('express');
@@ -258,7 +257,7 @@ Contributions are always welcome!
 
 ### :scroll: Code of Conduct
 
-Please read the [Code of Conduct](https://github.com/DuckyMomo20012/express-template/blob/main/CODE_OF_CONDUCT.md)
+Please read the [Code of Conduct](https://github.com/DuckyMomo20012/express-template/blob/main/CODE_OF_CONDUCT.md).
 
 <!-- FAQ -->
 
@@ -275,7 +274,9 @@ Please read the [Code of Conduct](https://github.com/DuckyMomo20012/express-temp
 
 ## :warning: License
 
-Distributed under MIT license. See [LICENSE](https://github.com/DuckyMomo20012/express-template/blob/main/LICENSE) for more information.
+Distributed under MIT license. See
+[LICENSE](https://github.com/DuckyMomo20012/express-template/blob/main/LICENSE)
+for more information.
 
 <!-- Contact -->
 
@@ -283,13 +284,13 @@ Distributed under MIT license. See [LICENSE](https://github.com/DuckyMomo20012/e
 
 Duong Vinh - [@duckymomo20012](https://twitter.com/duckymomo20012) - tienvinh.duong4@gmail.com
 
-Project Link: [https://github.com/DuckyMomo20012/express-template](https://github.com/DuckyMomo20012/express-template)
+Project Link: [https://github.com/DuckyMomo20012/express-template](https://github.com/DuckyMomo20012/express-template).
 
 <!-- Acknowledgments -->
 
 ## :gem: Acknowledgements
 
-Here are useful resources and libraries that we have used in our projects.
+Here are useful resources and libraries that we have used in our projects:
 
 - [Awesome Readme Template](https://github.com/Louis3797/awesome-readme-template):
   A detailed template to bootstrap your README file quickly.
