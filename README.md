@@ -166,7 +166,7 @@ cd express-template
 Install dependencies:
 
 ```bash
-yarn install
+yarn
 ```
 
 Start the server:
@@ -175,7 +175,7 @@ Start the server:
 yarn start
 ```
 
-OR
+OR:
 
 Run with `nodemon`:
 
