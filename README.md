@@ -108,12 +108,12 @@
 
 ### :art: Color Reference
 
-| Color           | Hex                                                             |
-| --------------- | --------------------------------------------------------------- |
-| Primary Color   | ![#222831](http://via.placeholder.com/10/222831?text=+) #222831 |
-| Secondary Color | ![#393E46](http://via.placeholder.com/10/393E46?text=+) #393E46 |
-| Accent Color    | ![#00ADB5](http://via.placeholder.com/10/00ADB5?text=+) #00ADB5 |
-| Text Color      | ![#EEEEEE](http://via.placeholder.com/10/EEEEEE?text=+) #EEEEEE |
+| Color           | Hex                                                              |
+| --------------- | ---------------------------------------------------------------- |
+| Primary Color   | ![#222831](https://placehold.jp/222831/222831/10x10.png) #222831 |
+| Secondary Color | ![#393E46](https://placehold.jp/393E46/393E46/10x10.png) #393E46 |
+| Accent Color    | ![#00ADB5](https://placehold.jp/00ADB5/00ADB5/10x10.png) #00ADB5 |
+| Text Color      | ![#EEEEEE](https://placehold.jp/EEEEEE/EEEEEE/10x10.png) #EEEEEE |
 
 <!-- Env Variables -->
 
@@ -129,10 +129,11 @@ your `.env` file:
 E.g:
 
 ```
+# .env
 TEST_VAR="my secret key"
 ```
 
-You can also checkout file `.env.example` to see all required environment
+You can also check out the file `.env.example` to see all required environment
 variables.
 
 <!-- Getting Started -->
@@ -262,7 +263,8 @@ Please read the [Code of Conduct](https://github.com/DuckyMomo20012/express-temp
 - Question 2
 
   - Answer 2.
-  <!-- License -->
+
+<!-- License -->
 
 ## :warning: License
 
@@ -274,7 +276,8 @@ for more information.
 
 ## :handshake: Contact
 
-Duong Vinh - [@duckymomo20012](https://twitter.com/duckymomo20012) - tienvinh.duong4@gmail.com
+Duong Vinh - [@duckymomo20012](https://twitter.com/duckymomo20012) -
+tienvinh.duong4@gmail.com
 
 Project Link: [https://github.com/DuckyMomo20012/express-template](https://github.com/DuckyMomo20012/express-template).
 
