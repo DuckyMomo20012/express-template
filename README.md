@@ -8,7 +8,6 @@
 
 <!-- Badges -->
 <p>
-
   <a href="https://github.com/DuckyMomo20012/express-template/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/DuckyMomo20012/express-template" alt="contributors" />
   </a>
@@ -183,7 +182,7 @@ OR:
 Run with `nodemon`:
 
 ```bash
-yarn test
+yarn dev
 ```
 
 ---
@@ -199,7 +198,7 @@ The server will run on: http://localhost:3000/
 To run tests, run the following command:
 
 ```bash
-yarn test test
+yarn test
 ```
 
 <!-- Deployment -->
