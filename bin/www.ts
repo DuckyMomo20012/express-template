@@ -1,22 +1,22 @@
 #!/usr/bin/env node
+/* eslint-disable no-use-before-define */
 
 /**
  * Module dependencies.
  */
 
-const debug = require('debug')('express-template:server');
-const http = require('http');
-const dotenv = require('dotenv');
-const app = require('../app');
+import http from 'http';
+import debug from 'debug';
+import dotenv from 'dotenv';
+import app from '../app';
+
+debug('express-template:server');
 
 dotenv.config();
 
 /**
  * Get port from environment and store in Express.
  */
-
-console.log(`Your TEST_VAR: ${process.env.TEST_VAR}`);
-
 const port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
@@ -39,6 +39,7 @@ server.on('listening', onListening);
  */
 
 function normalizePort(val) {
+  // eslint-disable-next-line no-shadow
   const port = parseInt(val, 10);
 
   if (Number.isNaN(port)) {
@@ -86,6 +87,7 @@ function onError(error) {
 
 function onListening() {
   const addr = server.address();
-  const bind = typeof addr === 'string' ? `pipe ${addr}` : `port ${addr.port}`;
+  // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+  const bind = typeof addr === 'string' ? `pipe ${addr}` : `port ${addr!.port}`;
   debug(`Listening on ${bind}`);
 }
