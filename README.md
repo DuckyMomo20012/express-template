@@ -1,5 +1,6 @@
 <div align="center">
 
+  <img src="https://camo.githubusercontent.com/0566752248b4b31b2c4bdc583404e41066bd0b6726f310b73e1140deefcc31ac/68747470733a2f2f692e636c6f756475702e636f6d2f7a6659366c4c376546612d3330303078333030302e706e67" alt="logo" width="200" height="auto" />
   <h1>ExpressJS Template</h1>
 
   <p>
@@ -143,10 +144,10 @@ variables.
 
 ### :bangbang: Prerequisites
 
-This project uses [Yarn](https://yarnpkg.com/) as package manager:
+This project uses [pnpm](https://pnpm.io/) as package manager:
 
 ```bash
-npm install --global yarn
+npm install --global pnpm
 ```
 
 <!-- Run Locally -->
@@ -168,13 +169,13 @@ cd express-template
 Install dependencies:
 
 ```bash
-yarn
+pnpm install
 ```
 
 Start the server:
 
 ```bash
-yarn start
+pnpm start
 ```
 
 OR:
@@ -182,7 +183,7 @@ OR:
 Run with `nodemon`:
 
 ```bash
-yarn dev
+pnpm dev
 ```
 
 ---
@@ -198,16 +199,18 @@ The server will run on: http://localhost:3000/
 To run tests, run the following command:
 
 ```bash
-yarn test
+pnpm test
 ```
 
 <!-- Deployment -->
 
 ### :triangular_flag_on_post: Deployment
 
-To deploy this project on Heroku:
+To deploy this project run:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+```bash
+pnpm deploy
+```
 
 <!-- Usage -->
 
