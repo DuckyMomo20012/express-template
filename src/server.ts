@@ -8,7 +8,7 @@
 import http from 'http';
 import debug from 'debug';
 import dotenv from 'dotenv';
-import app from '../app';
+import app from './app';
 
 debug('express-template:server');
 
