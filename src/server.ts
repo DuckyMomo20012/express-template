@@ -8,9 +8,9 @@
 import http from 'http';
 import debug from 'debug';
 import dotenv from 'dotenv';
-import app from '../app';
+import app from './app';
 
-debug('express-template:server');
+const log = debug('http:server');
 
 dotenv.config();
 
@@ -69,10 +69,12 @@ function onError(error) {
   // handle specific listen errors with friendly messages
   switch (error.code) {
     case 'EACCES':
+      // eslint-disable-next-line no-console
       console.error(`${bind} requires elevated privileges`);
       process.exit(1);
       break;
     case 'EADDRINUSE':
+      // eslint-disable-next-line no-console
       console.error(`${bind} is already in use`);
       process.exit(1);
       break;
@@ -89,5 +91,5 @@ function onListening() {
   const addr = server.address();
   // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
   const bind = typeof addr === 'string' ? `pipe ${addr}` : `port ${addr!.port}`;
-  debug(`Listening on ${bind}`);
+  log(`Listening on ${bind}`);
 }
