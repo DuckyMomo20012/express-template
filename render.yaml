@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: my-express-template
+    env: node
+    buildCommand: pnpm i
+    startCommand: pnpm start
